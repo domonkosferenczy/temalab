@@ -31,8 +31,6 @@ function ToDoApp() {
     return <div></div>;
   }
 
-  console.log(state);
-
   return (
     <div className="ToDoApp">
       <Container style={{ marginTop: 12 }}>
