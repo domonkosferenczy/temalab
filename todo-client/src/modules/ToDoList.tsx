@@ -8,7 +8,7 @@ export default function ToDoList(props: any) {
   const elements = state.todos
     .filter((todo: any) => todo.state === props.type)
     .sort((todoA: any, todoB: any) => {
-      return todoA.Priority - todoB.Priority;
+      return todoA.priority - todoB.priority;
     })
     .map((todo: any) => {
       return ToDoListElement(todo);
